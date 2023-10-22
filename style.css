@@ -47,7 +47,149 @@
 margin-top: 159px;
 margin-bottom: 50px;
 }
-@media (max-width: 768px) {
+.orderlink{
+  background-color: black;
+  color: white;
+  border:none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.orderlink:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.orderlink{
+    background-color: black;
+    color: white;
+    border:none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  .orderlink:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+    #section1{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0;
+    }
+   .text{
+      margin-top: 120px;
+      padding: 40px; 
+    }
+    .text h1{
+      font-size: 100px;
+      text-transform: uppercase;
+      }
+    #section1 img{
+      width: 450px;
+      margin-top: 80px;
+      margin-right: 50px;
+    }
+    
+    #hillsunproduct{
+      margin:10px
+  }
+  #product{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .subtitle{
+    margin-top: 140px;
+    font-size: 50px;
+    text-transform: capitalize;
+  }
+  .product1{
+    border: 2px solid black;
+    width: 320px;
+    padding: 25px;
+    border-radius: 20px;
+  }
+  
+  .product1 img{
+    width: 200px;
+  }
+  .product2{
+    border: 2px solid black;
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+  }
+  
+  .product2 img{
+    width: 190px;
+  }
+  
+  .product3{
+    border: 2px solid black;
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+  }
+  
+  .product3 img{
+    width: 190px;
+  }
+  #contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .image {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+  }
+  .about{
+    margin-left: 40px;
+  }
+  
+  
+  .image img{
+    border: 2px solid rgb(67, 2, 59);
+    width: 100px;
+    padding: 25px;
+    display: inline;
+    border-radius: 20%;
+    background-color: rgb(253, 250, 250);
+    
+  }
+  .image img:hover{
+    width: 150px;
+    transition: 0.7s;
+  }
+  #section3{
+    margin-top: 180px;
+    margin-bottom: 80px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #contact {
+      flex-direction: column; 
+    }
+    
+    .image {
+      margin-top: 10px;
+      flex: 0 0 auto;
+      text-align: center; 
+      margin-bottom: 20px; 
+    }
+    
+    .about {
+      order: 1; 
+    }
+  }
+  @media (max-width: 768px) {
     /* Mengubah tampilan navigasi (navbar) */
     .home{
       height: 190px;
@@ -62,88 +204,42 @@ margin-bottom: 50px;
       font-size: 24px; 
     }
     ul {
-      list-style: none; 
-      padding: 0; 
+        list-style: none; 
+        padding: 0; 
+      }
+      li {
+        margin: 10px 0; 
+      }
+      
+      
+      #homesection h1 {
+        font-weight: 100px;
+      }
+      #sample img {
+        width: 300px /* Agar gambar mengisi lebar penuh */
+      }
+      
+      /* Jika Anda perlu mengubah lebih banyak elemen, tambahkan aturan CSS di sini */
     }
-    li {
-      margin: 10px 0; 
-    }
-  
-    
-    #homesection h1 {
-      font-weight: 100px;
-    }
-    #sample img {
-      width: 300px /* Agar gambar mengisi lebar penuh */
-    }
-  
-    /* Jika Anda perlu mengubah lebih banyak elemen, tambahkan aturan CSS di sini */
-  }
-  @media (max-width: 768px) {
-    .home {
-      padding: 10px; /* Ubah padding sesuai kebutuhan Anda */
-    }
-    .navigasi {
-      flex-direction: column; 
-      align-items: center; 
-      height: 150px;
-    }
-    .navigasi img {
-      width: 80px;
-    }
-    .navigasi h1 {
-      font-size: 24px;
-    }
-    
-    .navigasi li {
-      margin: 10px 0; 
-      text-align: center; 
+    @media (max-width:768px){
+      #product{
+        display: block;
+      }
+      .product1{
+        width: 298px;
+        
+      }
       
     }
-    .navigasi a {
-      width: auto; 
-    }
-    #homesection {
-      margin-top: 200px;
-      font-size: medium; 
-    }
-    #homesection h1{
-        font-size: 70px;
-    }
-    #sample {
-      margin-top: 100px; 
-      margin-bottom: 20px;
-      
-    }
-  }
-    #section1{
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 0;
-    }
-   .text{
-      margin-top: 120px;
-      padding: 40px; 
+    @media (max-width: 768px) {
+      #section1{
+        display: block;
       }
-    .text h1{
-      font-size: 100px;
-      text-transform: uppercase;
+      .text {
+        margin-top: 60px;
+        margin-left: 5px;
+        padding: 10px;
       }
-    #section1 img{
-      width: 450px;
-      margin-top: 80px;
-      margin-right: 50px;
-    }
-
-@media (max-width: 768px) {
-    #section1{
-      display: block;
-    }
-    .text {
-      margin-top: 60px;
-      margin-left: 5px;
-      padding: 10px;
-    }
     .text h1{
       font-size: 40px;
     }
@@ -151,7 +247,7 @@ margin-bottom: 50px;
       width: 250px;
       margin-top: 0;
     }
-
+    
     .orderlink{
       border:none;
       background-color: black;
@@ -166,109 +262,40 @@ margin-bottom: 50px;
       border: 2px solid black;
     }
   }
-  #hillsunproduct{
-    margin:10px
-  }
-  #product{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    padding: 20px;
-    flex-wrap: wrap;
-  }
-.subtitle{
-  margin-top: 140px;
-  font-size: 50px;
-  text-transform: capitalize;
-}
-.product1{
-  border: 2px solid black;
-  width: 320px;
-  padding: 25px;
-  border-radius: 20px;
-}
-
-  .product1 img{
-    width: 200px;
-  }
-  .product2{
-    border: 2px solid black;
-  width: 300px;
-  padding: 25px;
-  border-radius: 20px;
-  }
-
-  .product2 img{
-    width: 190px;
-  }
-  
-  .product3{
-    border: 2px solid black;
-  width: 300px;
-  padding: 25px;
-  border-radius: 20px;
-  }
-
-  .product3 img{
-    width: 190px;
-  }
-  @media (max-width:768px){
-    #product{
-      display: block;
-    }
-    .product1{
-      width: 298px;
-
-    }
-
-  }
-  #contact {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .image {
-    flex: 1;
-    margin: 10px;
-    text-align: center;
-  }
- .about{
-  margin-left: 40px;
- }
-    
-  
-  .image img{
-    border: 2px solid rgb(67, 2, 59);
-    width: 100px;
-    padding: 25px;
-    display: inline;
-    border-radius: 20%;
-    background-color: rgb(253, 250, 250);
-  
-  }
-  .image img:hover{
-    width: 150px;
-    transition: 0.7s;
-  }
-  #section3{
-    margin-top: 180px;
-    margin-bottom: 80px;
-  }
-
-  @media screen and (max-width: 768px) {
-    #contact {
-      flex-direction: column; 
-    }
-  
-    .image {
-      margin-top: 10px;
-      flex: 0 0 auto;
-      text-align: center; 
-      margin-bottom: 20px; 
-    }
-  
-    .about {
-      order: 1; 
-    }
-  }
+    @media (max-width: 768px) {
+      .home {
+          padding: 10px; /* Ubah padding sesuai kebutuhan Anda */
+        }
+        .navigasi {
+          flex-direction: column; 
+          align-items: center; 
+          height: 150px;
+        }
+        .navigasi img {
+          width: 80px;
+        }
+        .navigasi h1 {
+          font-size: 24px;
+        }
+        
+        .navigasi li {
+          margin: 10px 0; 
+          text-align: center; 
+          
+        }
+        .navigasi a {
+          width: auto; 
+        }
+        #homesection {
+          margin-top: 200px;
+          font-size: medium; 
+        }
+        #homesection h1{
+          font-size: 70px;
+        }
+        #sample {
+          margin-top: 100px; 
+          margin-bottom: 20px;
+          
+        }
+      }
