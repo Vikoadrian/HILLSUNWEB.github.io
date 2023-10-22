@@ -188,9 +188,6 @@ margin-bottom: 50px;
     .about {
       order: 1; 
     }
-  }
-  @media (max-width: 768px) {
-    /* Mengubah tampilan navigasi (navbar) */
     .home{
       height: 190px;
     }
@@ -219,9 +216,8 @@ margin-bottom: 50px;
         width: 300px /* Agar gambar mengisi lebar penuh */
       }
       
-      /* Jika Anda perlu mengubah lebih banyak elemen, tambahkan aturan CSS di sini */
-    }
-    @media (max-width:768px){
+      
+      
       #product{
         display: block;
       }
@@ -230,8 +226,8 @@ margin-bottom: 50px;
         
       }
       
-    }
-    @media (max-width: 768px) {
+    
+
       #section1{
         display: block;
       }
@@ -261,8 +257,8 @@ margin-bottom: 50px;
       color: black;
       border: 2px solid black;
     }
-  }
-    @media (max-width: 768px) {
+  
+    
       .home {
           padding: 10px; /* Ubah padding sesuai kebutuhan Anda */
         }
@@ -298,4 +294,5 @@ margin-bottom: 50px;
           margin-bottom: 20px;
           
         }
-      }
+      
+    }
