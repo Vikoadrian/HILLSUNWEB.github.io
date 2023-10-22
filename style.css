@@ -47,19 +47,7 @@
 margin-top: 159px;
 margin-bottom: 50px;
 }
-.orderlink{
-  background-color: black;
-  color: white;
-  border:none;
-  padding: 10px 30px;
-  border-radius: 20px;
-  text-decoration: none;
-}
-.orderlink:hover{
-  background-color: white;
-  color: black;
-  border: 2px solid black;
-}
+
 
 .orderlink{
     background-color: black;
