@@ -1,7 +1,6 @@
 document.getElementById("klikbutton").addEventListener("click",function(){
     window.location.href = "https://wa.me/qr/WBQBINHUNQT4L1"
 });
-
 document.getElementById("klikbutton1").addEventListener("click",function(){
     window.location.href = "https://wa.me/qr/WBQBINHUNQT4L1"
 });
