@@ -151,6 +151,20 @@ margin-bottom: 50px;
       width: 250px;
       margin-top: 0;
     }
+
+    .orderlink{
+      border:none;
+      background-color: black;
+      text-decoration: none;
+      color:white;
+      padding: 10px 30px;
+      border-radius: 20px;
+    }
+    .orderlink:hover{
+      background-color: white;
+      color: black;
+      border: 2px solid black;
+    }
   }
   #hillsunproduct{
     margin:10px
@@ -197,18 +211,6 @@ margin-bottom: 50px;
 
   .product3 img{
     width: 190px;
-  }
-  #hillsunproduct button{
-    width:250px;
-    height: 35px;
-    border-radius: 20px;
-    background-color: black;
-    color: white;
-
-  }
-  #hillsunproduct button:hover{
-    background-color: white;
-    color: black;
   }
   @media (max-width:768px){
     #product{
